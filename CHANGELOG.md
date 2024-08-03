@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.61.2](https://github.com/bpg/terraform-provider-proxmox/compare/v0.61.1...v0.61.2) (2024-08-03)
+
+
+### Bug Fixes
+
+* **docs:** document role privileges required by `proxmox_virtual_environment_download_file` ([#1442](https://github.com/bpg/terraform-provider-proxmox/issues/1442)) ([2475d99](https://github.com/bpg/terraform-provider-proxmox/commit/2475d99317bbef3f4a2372ed1377c64590ad5df8))
+* **tools:** ensure docs/guides files are copied correctly ([#1464](https://github.com/bpg/terraform-provider-proxmox/issues/1464)) ([f7c3560](https://github.com/bpg/terraform-provider-proxmox/commit/f7c35602608a7cfcdebceadd725ebae02c9b6cf6))
+
+
+### Miscellaneous
+
+* **deps:** update golang.org/x/exp digest (46b0784 → e3f2596) ([#1448](https://github.com/bpg/terraform-provider-proxmox/issues/1448)) ([1ba422a](https://github.com/bpg/terraform-provider-proxmox/commit/1ba422a68ef86ef8903aafd0030a4dcdb76023e1))
+* **deps:** update golang.org/x/exp digest (e3f2596 → 8a7402a) ([#1452](https://github.com/bpg/terraform-provider-proxmox/issues/1452)) ([76ce03f](https://github.com/bpg/terraform-provider-proxmox/commit/76ce03f6142f5811400ba3f3724a9a35decbefc3))
+* **deps:** update module github.com/skeema/knownhosts (v1.2.2 → v1.3.0) ([#1449](https://github.com/bpg/terraform-provider-proxmox/issues/1449)) ([f116127](https://github.com/bpg/terraform-provider-proxmox/commit/f1161276ad4106033a88de0ed99ceb1258817ea7))
+* **docs:** minor documentation updates ([#1463](https://github.com/bpg/terraform-provider-proxmox/issues/1463)) ([2bf9a94](https://github.com/bpg/terraform-provider-proxmox/commit/2bf9a9456210b7b0f60f7a5059b3dca108eef7b3))
+
 ## [0.61.1](https://github.com/bpg/terraform-provider-proxmox/compare/v0.61.0...v0.61.1) (2024-07-11)
 
 
