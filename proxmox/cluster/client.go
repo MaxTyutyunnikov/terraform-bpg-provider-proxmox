@@ -8,11 +8,11 @@ package cluster
 
 import (
 	"fmt"
-
 	"github.com/bpg/terraform-provider-proxmox/proxmox/api"
 	clusterfirewall "github.com/bpg/terraform-provider-proxmox/proxmox/cluster/firewall"
 	"github.com/bpg/terraform-provider-proxmox/proxmox/cluster/ha"
 	"github.com/bpg/terraform-provider-proxmox/proxmox/cluster/mapping"
+	"github.com/bpg/terraform-provider-proxmox/proxmox/cluster/sdn"
 	"github.com/bpg/terraform-provider-proxmox/proxmox/firewall"
 )
 
@@ -31,6 +31,11 @@ func (c *Client) Firewall() clusterfirewall.API {
 	return &clusterfirewall.Client{
 		Client: firewall.Client{Client: c},
 	}
+}
+
+// SDN returns a client for managing the cluster's High Availability features.
+func (c *Client) SDN() *sdn.Client {
+	return &sdn.Client{Client: c}
 }
 
 // HA returns a client for managing the cluster's High Availability features.
